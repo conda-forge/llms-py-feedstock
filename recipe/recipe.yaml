@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: llms-py
-  version: "4.0.21"
+  version: "4.0.22"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 5572e727e7690820abf84aa8b8ea5e80b82ed04e4b507b18d08d5a07751f4e68
+  sha256: 2ea21be510da167c76fd63f56a76931576c2155c133b9aca1dec7a2ee2eeb358
 
 build:
   number: 0
